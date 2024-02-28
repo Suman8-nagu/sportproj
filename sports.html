@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<style>
+    h1,h2{
+text-align: center;
+background-color: green;
+    }
+    .suman{
+        border: 2px solid black;
+        background-color:black;
+        font-size: 40px;
+        display: flex;
+        flex-direction: row;  
+    }
+    .pavan{
+        border: 2px solid black;
+        font-size: 30px;
+        margin-top: 30px;
+        background-color: black;
+
+
+    }
+    .mini{
+        padding-left: 40px;
+        text-decoration: none;
+        text-emphasis-color: blacK;
+        color: white;
+
+
+    }
+    .main{
+        padding-left: 40px;
+        text-decoration: none;
+        color: white;
+
+    }
+    .arc{
+        padding-left: 40px;
+        text-decoration: none;
+        color: white;
+
+    } .dropdown-toggle{
+        margin-left: 40px;
+       background-color:black;
+       color:white;
+        font-size: 40px;
+        border: none; 
+    }
+    .profilepic{
+        margin-left: 100px;
+        color: white;
+        margin-top: 10px;
+
+    }
+    .material-icons{
+        font-size: 40px;
+       
+    }
+    .pv1{
+      
+        margin-left: 40px;
+        color:white;
+        text-decoration: none;
+    }
+    .pv2{
+        margin-left: 40px;
+        color:white;
+        text-decoration: none;
+       
+    }
+    .pv3{
+      margin-left: 40px;
+      color:white;
+      text-decoration: none;
+    }
+    .pv4{
+      margin-left: 40px;
+      color:white;
+      text-decoration: none;
+    }
+    .pv5{
+      margin-left: 40px;
+      color:white;
+      text-decoration: none;
+    }
+    .pv6{
+      margin-left: 40px;
+      color:white;
+      text-decoration: none;
+    }
+    .akil{
+      padding-left: 20px;
+      margin-left: 40px;
+      margin-top: 20px;
+      font-size: 20px;
+
+
+    }
+    
+    .ak2{
+      margin-left: 80px;
+    }
+    .ak3{
+      margin-left: 120px;
+    }
+    .laddu{
+      margin-left: 40px;
+    }
+    
+    .src1{
+      margin-left: 40px;
+      font-size: 20px;
+      color: black;
+
+
+    }
+    .src2{
+      margin-left: 80px;
+      font-size: 20px;
+      color: black;
+
+    }
+    .src3{
+      margin-left: 80px;
+      font-size: 20px;
+      color: black;
+
+    }
+    .src4{
+      margin-left: 80px;
+      font-size:20px ;
+      color: black;
+    }
+    .src5{
+      margin-left: 80px;
+      font-size:20px ;
+      color: black;
+    }
+    .src6{
+      margin-left: 80px;
+      font-size:20px ;
+      color: black;
+    }.src7{
+      margin-left: 80px;
+      font-size:20px ;
+      color: black;
+    }.src8{
+      margin-left: 80px;
+      font-size:20px ;
+      color: black;
+    }
+    .firstbox{
+      border: 2px solid whitesmoke;
+      height: 1700px;
+      width: 350px;
+      margin-left: 50px;
+      margin-top: 20px;
+      font-size: 20px;
+
+
+    }
+    .boxes{
+      display: flex;
+    }
+    .secondbox{
+      border: 2px solid whitesmoke;
+      height:1700px;
+      width: 400px;
+      margin-left: 100px;
+      margin-top: 20px;
+
+    }.win,.rc{
+      font-size: 50px;
+    }.Thirdbox{
+      margin-left: 150px;
+      margin-top: 20px;
+      height:1700px ;
+      width:250px ;
+    }
+    .livematch{
+      display: flex;
+      
+    }
+    .laddu{
+      margin-left: 40px;
+      border: 2px solid black;
+      padding-left: 20px;
+      height: fit-content;
+      border-radius: 20px;
+      background-color: cornsilk;
+    
+
+    }.la2,.la3{
+      font-size: 30px;
+    }
+    
+    
+    
+    
+    .vinay{
+      margin-left: 80px;
+      border: 2px solid black;
+      border-radius: 20px;
+      padding-left: 20px;
+      background-color: cornsilk;
+    }
+    .vi2 ,.vi3{font-size: 30px;
+
+    }.kamal{
+      margin-left: 80px;
+      border: 2px solid black;
+      border-radius: 20px;
+      padding-left: 20px;
+      background-color: cornsilk;
+
+    }
+    .ka2,.ka1{
+      font-size: 30px;
+
+    }.aravind{  margin-left: 80px;
+      border: 2px solid black;
+      border-radius: 20px;
+      padding-left: 20px;
+      background-color: cornsilk;
+
+    }
+    .ar1,.ar2{ font-size: 30px;
+
+    }.santhu{margin-left: 80px;
+      border: 2px solid black;
+      border-radius: 20px;
+      padding-left: 20px;
+      background-color: cornsilk;
+      
+
+      
+    }.sa1,.sa2{font-size: 30px;
+
+    }
+    .end{
+      border: 2px solid black;
+      height: 400px;
+      width: 1500px;
+      margin-left: 40px;
+      background-color: rgb(194, 191, 191);
+      display: flex;
+    }.en1,.mb1,.fs1{
+      font-size: 40px;
+      padding-left: 180px;
+      padding-top: 50px;
+
+    }.mb2,.mb3{padding-left: 180px;
+      padding-top: 50px;
+      font-size: 20px;
+
+    }.fs2,.fs3,.fs4{
+      padding-left: 180px;
+      padding-top: 50px;
+      font-size: 20px;
+    }
+
+    
+  
+    
+    
+
+   
+  
+
+
+  
+
+
+</style>
+<body>
+    <h1 >Sports Blog</h1>
+    <h2 class="ls"></h2>
+    <div class="suman">
+    <a class="mini" href="https://www.bing.com/search?q=cricket+live+score&form=ANNTH1&refig=36A1F83498BC4383BFAEEF8307552624&pc=U531&sp=1&lq=0&qs=LS&pq=cricket+&sc=10-8&cvid=36a1f83498bc4383bfaeef8307552624" target="_blank">Live Scores</a>
+    <a class="main"  href="https://www.espncricinfo.com/ci/engine/series/index.html?season=2024;view=season" target="_blank"> Schedules</a>
+    <a class="arc" href="https://www.cricbuzz.com/cricket-scorecard-archives" target="_blank" >Archives</a>
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          News
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#">All stories</a></li>
+          <li><a class="dropdown-item" href="#">Top stories</a></li>
+          <li><a class="dropdown-item" href="#">cricbuzz plus</a></li>
+          <li><a class="dropdown-item" href="#">content</a></li>
+          <li><a class="dropdown-item" href="#">Latest news</a></li>
+          <li><a class="dropdown-item" href="#">spotlight</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          Series
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#"> England tour of india 2024</a></li>
+          <li><a class="dropdown-item" href="#">Zimbambwe tour of bangladesh 2024</a></li>
+          <li><a class="dropdown-item" href="#">Australia tour of india 2024 </a></li>
+          <li><a class="dropdown-item" href="#">Westindies tour of india 2024</a></li>
+          <li><a class="dropdown-item" href="#">Bangladesh tour of india 2024 </a></li>
+          <li><a class="dropdown-item" href="#">Newzeland tour of india 2024</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          More
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#">World Test Champion </a></li>
+          <li><a class="dropdown-item" href="#">IPL live stream </a></li>
+          <li><a class="dropdown-item" href="#">World Cup super league </a></li>
+          <li><a class="dropdown-item" href="#">Photos</a></li>
+          <li><a class="dropdown-item" href="#">Other </a></li>
+          <li><a class="dropdown-item" href="#">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="profilepic">
+        <i class="material-icons">&#xe853;</i>
+
+
+
+      </div>
+
+      
+
+    </div>
+    <div class="pavan">
+        <a class="pv1" href="https://www.cricbuzz.com/live-cricket-scores/78649/eng-vs-ind-4th-test-england-tour-of-india-2024">MATCHES</a>
+        <a class="pv2" href="https://www.cricbuzz.com/live-cricket-scores/78649/eng-vs-ind-4th-test-england-tour-of-india-2024">ENG VS IND LIVE</a>
+        <a class="pv3" href="https://www.cricbuzz.com/live-cricket-scores/78649/eng-vs-ind-4th-test-england-tour-of-india-2024">NEW VS IND LIVE</a>
+        <a class="pv4" href="https://www.cricbuzz.com/live-cricket-scores/78649/eng-vs-ind-4th-test-england-tour-of-india-2024">PAK VS IND LIVE</a>
+        <a class="pv5" href="https://www.cricbuzz.com/live-cricket-scores/78649/eng-vs-ind-4th-test-england-tour-of-india-2024">AFG VS IND LIVE</a>
+        <a class="pv6" href="https://www.cricbuzz.com/live-cricket-scores/78649/eng-vs-ind-4th-test-england-tour-of-india-2024">OtherMatches</a>
+
+
+
+    </div>
+    <div class="akil">
+      <h2>India vs England ,4th TEST match live cricket score Commentary</h2>
+      <p class="ak1"  style="display: inline-block;">series:ENG VS IND 2024</p>
+      <p class="ak2" style="display: inline-block;">stadium:Narendra modi stadium HYDERABAD</p>
+      <p class="ak3"  style="display:inline-block ;">date and time:24-02-2024</p>
+
+    </div>
+    <div class="livematch">
+    <div class="laddu">
+      <p class="la1">4th test match : ind vs eng</p>
+      <p class="la2">IND  :  420-10</p>
+      <p class="la3">ENG  :  360-10</p>
+      <p >india won by 60 runs</p>
+
+    </div>
+    <div class="vinay">
+      <p class="vi1">ipl 1st t20 match</p>
+      <p class="vi2">ROYAL CHALLENGERS</p>
+      <p class="vi3">CHENNAI SUPER KINGS</p>
+      <p class="vi4">match not yet started</p>
+
+    </div>
+    <div class="kamal">
+      <p>ipl t20 2nd match</p>
+      <p class="ka1">SUNRISERS</p>
+      <p class="ka2">DELHI CAPITALS</p>
+      <p>match not yet started</p>
+
+
+    </div>
+    <div class="aravind">
+      <p>ipl t20 3rd match</p>
+      <p class="ar1">GUJARAT TITANS</p>
+      <p class="ar2">PUNJAB KINGS</p>
+      <p>match not yet started</p>
+
+    </div>
+   
+
+  </div>
+    <div class="src">
+      <a class="src1"  href="https://www.cricbuzz.com/live-cricket-scores/78649/ind-vs-eng-4th-test-england-tour-of-india-2024">Commentary</a>
+      <a class="src2"  href="https://www.cricbuzz.com/live-cricket-scorecard/78649/ind-vs-eng-4th-test-england-tour-of-india-2024">scorecard</a>
+      <a class="src3"  href="https://www.cricbuzz.com/cricket-match-squads/78649/ind-vs-eng-4th-test-england-tour-of-india-2024">squad</a>
+      <a class="src4"  href="https://www.cricbuzz.com/cricket-match-highlights/78649/ind-vs-eng-4th-test-england-tour-of-india-2024">highlights</a>
+      <a class="src5"  href="https://www.cricbuzz.com/live-cricket-full-commentary/78649/ind-vs-eng-4th-test-england-tour-of-india">full commentry</a>
+      <a class="src6"  href="https://www.cricbuzz.com/live-cricket-match-blog/78649/ind-vs-eng-4th-test-england-tour-of-india-2024">live blog </a>
+      <a class="src7"  href="https://www.cricbuzz.com/cricket-match-facts/78649/ind-vs-eng-4th-test-england-tour-of-india-2024">Match facts</a>
+      <a class="src8"  href="https://www.cricbuzz.com/cricket-match-photos/78649/ind-vs-eng-4th-test-england-tour-of-india-2024">photos</a>
+      
+    </div>
+    <div class="boxes">
+    <div  class="firstbox">
+      <h2>LATEST NEWS</h2>
+      <p>Rohit lavishes praise on India's young guns
+        22m ago</p>
+        <p>Hardik Pandya returns to competitive cricket, Ishan Kishan likely to join soon
+          1h ago
+          </p>
+          <p>Controversy and confusion at Challenge Play-off: Malaysia crash out despite dubious tactic
+            2h ago</p>
+            <p>Kerr, Ismail make it two in two for Mumbai
+              17h ago</p>
+              <p>Haris Rauf ruled out of PSL with shoulder dislocation
+                1d ago</p>
+                <p>Hasaranga handed two-match suspension for slamming umpire</p>
+                <p>Controversy and confusion at Challenge Play-off: Malaysia crash out despite dubious tactic
+                  2h ago</p>
+                  <p>"I had to go back and rewire" - Ashwin on adapting to Ranchi pitch</p>
+                  <p>Hasaranga handed two-match suspension for slamming umpire</p>
+                  <p>Haris Rauf ruled out of PSL with shoulder dislocation
+                    1d ago</p>
+                    <p>Hasaranga handed two-match suspension for slamming umpire
+                      1d ago</p>
+                      <p>Controversy and confusion at Challenge Play-off: Malaysia crash out despite dubious tactic
+                        6h ago
+                        </p>
+                        <p>Joe Root has said that the "execution" of the reverse-ramp shot he played against Jasprit Bumrah in Rajkot has "weighed" on him.</p>
+                        <p>Ben Stokes, the England captain, heaped praise on the Indian spin trio of R Ashwin, Ravindra Jadeja and Kuldeep Yadav for using the conditions to their advantage and ensuring his team's batters were challenged after India secured a five-wicket win in Ranchi to gain an unassailable 3-1 lead in the five-match series. The three Indian spinners combined to bag 15 of the 20 English wickets in the Test.
+
+                        </p>
+
+               
+
+
+    </div>
+<div   class="secondbox">
+  <img src="https://static.cricbuzz.com/a/img/v1/420x235/i1/c382743/gill-jurel-star-in-hard-fough.jpg" height="400px" width="400px">
+  <p class="win">Gill ,jurel star in hard fought win as india take un assisable lead 3-1 lead</p>
+  <img src="https://static.cricbuzz.com/a/img/v1/420x235/i1/c382912/rohit-lavishes-praise-on-india.jpg" height="400px" width="400px">
+  <p class="rc">Rohit lavishes  praise on indias young guns </p>
+  <p>"Nothing is impossible, I wouldn't say that. But it was nigh on impossible to operate how we wanted to. But one thing is that we don't tell people how to go out and play. What we do is give people the freedom and the confidence to go out and assess the way they think is best for them, but also for the team, in every single situation. It was very, very tough yesterday.</p>
+
+</div>
+<div class="Thirdbox">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Xbe-jZ7_hKQ?si=ulmHGbn_hj2GURQu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/F-jSnECvFJw?si=bfi7hTe2braXdwzx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/kAaKFvwRoWc?si=U-ky7tRlwsI0j_aP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/wo7ByUK4dP4?si=d3A5j3r_McPHjGpC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/jAHvG2L58e8?si=kAWgcJ2QYr3XL8PU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+</div>
+
+</div>
+<div class="end">
+  <p class="en1">Sports blog</p>
+  <div class="mb">
+  <p class="mb1">Mobile apps and Sites</p>
+  <p class="mb2">Android</p>
+  <p class="mb3">ios</p>
+  
+</div>
+<div class="fs" >
+  <p class="fs1"> follow us on</p>
+  <p class="fs2">twitter</p>
+  <p class="fs3">facebook</p>
+  <p class="fs4">whatsup</p>
+
+
+
+</div>
+</div>
+</body>
+</html>
